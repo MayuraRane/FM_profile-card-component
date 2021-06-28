@@ -33,7 +33,7 @@ Mobile View:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://mayurarane.github.io/FM_profile-card-component/)
 
 ## My process
 
