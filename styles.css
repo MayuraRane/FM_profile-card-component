@@ -27,7 +27,14 @@ body {
   background-color: hsl(185, 75%, 39%);
   text-align: center;
   font-family: "Kumbh Sans", sans-serif;
+  /* background-image: url(images/bg-pattern-top.svg);
+  background-size: 50% 50%;
+  background-repeat: no-repeat; */
+  background: url(images/bg-pattern-top.svg) no-repeat bottom 20vh right 51vw,
+    url(images/bg-pattern-bottom.svg) no-repeat top 45vh left 50vw,
+    hsl(185, 75%, 39%);
 }
+/* For background reference: https://www.w3schools.com/css/css3_backgrounds.asp*/
 
 hr {
   margin: 0;
@@ -52,14 +59,14 @@ ul {
   background-image: url("images/bg-pattern-card.svg");
   /* display: inline-block; */
   height: 9rem;
-  width: 28%;
+  width: 22rem;
   margin: 0 auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 .container-bottom {
   background-color: white;
-  width: 28%;
+  width: 22rem;
   margin: 0 auto;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -118,4 +125,7 @@ ul {
   display: inline-block;
   margin: -3rem auto 1rem auto;
   border: 6px solid white;
+}
+
+@media screen and (min-width: 375px) {
 }
