@@ -27,6 +27,8 @@ Desktop View:
 ![Desktop-View](./design/desktop-view.png)
 
 Mobile View:
+
+
 ![Mobile-View](./design/mobile-view.png)
 
 ### Links
@@ -62,7 +64,6 @@ background: url(images/bg-pattern-top.svg) no-repeat bottom 20vh right 51vw,
 - Twitter - [@mayura_rane](https://www.twitter.com/mayura_rane)
 - LinkedIn - [@mayurarane](https://www.linkedin.com/in/mayurarane/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
