@@ -1,0 +1,121 @@
+/*
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+*/
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+hr {
+  margin: 0;
+  margin-top: 1.4rem;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  color: hsl(227, 10%, 46%);
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+
+.container {
+  margin: 10% auto 8% auto;
+}
+.container-top {
+  background-image: url("images/bg-pattern-card.svg");
+  /* display: inline-block; */
+  height: 9rem;
+  width: 28%;
+  margin: 0 auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.container-bottom {
+  background-color: white;
+  width: 28%;
+  margin: 0 auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.5rem 1rem;
+  font-size: 1.1rem;
+  /* align-content: space-around; */
+}
+.followers .likes .photos {
+  flex: 1 1 0;
+  display: inline-block;
+  /* width: 100%; */
+}
+.num {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.5rem;
+}
+.sub {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+#Name {
+  font-weight: 600;
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  word-spacing: 2px;
+  margin: 2rem 0.5rem;
+}
+#age {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-weight: 500;
+  font-size: 18px;
+  word-spacing: 2px;
+  color: hsl(227, 10%, 46%);
+}
+#Place {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-weight: 450;
+  font-size: 14px;
+  word-spacing: 2px;
+  color: hsl(227, 10%, 46%);
+}
+#profile-img {
+  border-radius: 50%;
+  display: inline-block;
+  margin: -3rem auto 1rem auto;
+  border: 6px solid white;
+}
